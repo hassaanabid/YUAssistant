@@ -22,7 +22,7 @@ var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
-                defaultMessage: 'Sorry &macr;\_(ツ)_/&macr;, I didn\'t get that. Could you please rephrase your inquiry?',
+                defaultMessage: 'Sorry (ツ), I didn\'t get that. Could you please rephrase your inquiry?',
                 qnaThreshold: 0.3}
 );
 
